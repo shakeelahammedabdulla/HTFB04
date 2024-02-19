@@ -31,6 +31,10 @@ import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
 import "./App.css";
+import FileUpload from "./components/FileUpload";
+import Display from "./components/Display";
+import Modal from "./components/Modal";
+
 
 function App() {
   const [account, setAccount] = useState("");
@@ -91,3 +95,7 @@ function App() {
 }
 
 export default App;
+
+
+
+//0x5fbdb2315678afecb367f032d93f642f64180aa3
