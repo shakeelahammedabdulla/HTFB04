@@ -1,0 +1,74 @@
+.top {
+  margin: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: #00A96E;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.choose:hover {
+  background-color: #07c180;
+}
+.textArea {
+  color: white;
+  font-size: large;
+}
+
+.upload {
+  background-color: #00A96E;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.upload:hover {
+  border: 1px solid #13aa52;
+  background-color: #a5efc1;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.upload:disabled,
+.upload[disabled] {
+  border: 1px solid #999999;
+  background-color: white;
+  color:black;
+  border-radius: 15px;
+  padding: 7px 15px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+div {
+  padding: 5px 10px;
+}
+input {
+  border-radius: 25px;
+  padding: 4px;
+  /* Add any other styles for the input field */
+}
+
+input::placeholder {
+  background-color: purple;
+  margin-right: 65%;
+  border-radius: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  color: white;
+}
+
+input[type="text"]:focus {
+  background-color: white; /* Set the background color to white on focus */
+}
